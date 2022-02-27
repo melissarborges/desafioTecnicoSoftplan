@@ -2,25 +2,212 @@
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
   "children" : [ {
-    "name" : "verificar itens cadastrados na lista",
-    "uid" : "77de30107802562f",
+    "name" : "testar o 'delete'",
+    "uid" : "d84d2849a5190864",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1645986169034,
-      "stop" : 1645986171588,
-      "duration" : 2554
+      "start" : 1645986164827,
+      "stop" : 1645986165211,
+      "duration" : 384
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Estando com o filtro All ativo clicar em Clear completed",
-    "uid" : "9fe5b19564ae9e8f",
+    "uid" : "877e7a25f7c0bc8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645986174964,
+      "stop" : 1645986176144,
+      "duration" : 1180
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "marcar um item como completo",
+    "uid" : "ee87aaa4cfd43230",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645987362309,
+      "stop" : 1645987363372,
+      "duration" : 1063
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Selecionar o filtro Active",
+    "uid" : "41b47cc855d6b5de",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645987363378,
+      "stop" : 1645987364458,
+      "duration" : 1080
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testar o 'delete'",
+    "uid" : "87e1b1ef784397a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645987354458,
+      "stop" : 1645987354817,
+      "duration" : 359
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testar o 'update'",
+    "uid" : "9e90d17f3aff04f7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645987354032,
+      "stop" : 1645987354454,
+      "duration" : 422
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testar o 'create'",
+    "uid" : "9311aab428fd2117",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645987352736,
+      "stop" : 1645987353636,
+      "duration" : 900
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "excluir itens da lista",
+    "uid" : "a700bb09dd88472b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645987361165,
+      "stop" : 1645987362304,
+      "duration" : 1139
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "excluir itens da lista",
+    "uid" : "ec047c02dcdc6c10",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645986171630,
+      "stop" : 1645986172800,
+      "duration" : 1170
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "buscar um episódio pelo ID e validar pelo nome e data de exibição",
+    "uid" : "448a6057a65b759b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645982210871,
+      "stop" : 1645982211655,
+      "duration" : 784
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Buscar um local pelo ID '03' e validar pelo nome",
+    "uid" : "186962bbb527539e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645986156543,
+      "stop" : 1645986156964,
+      "duration" : 421
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testar o 'read'",
+    "uid" : "e8b67f16777c2dbe",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645987353639,
+      "stop" : 1645987354026,
+      "duration" : 387
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Estando com o filtro All ativo clicar em Clear completed",
+    "uid" : "8012241085016afd",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -37,7 +224,7 @@
     "parameters" : [ ]
   }, {
     "name" : "testar o 'read'",
-    "uid" : "e9b6e1cf84b37b70",
+    "uid" : "9ac6bb685709ad69",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -49,12 +236,46 @@
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testar o 'create'",
+    "uid" : "99afca71bef0501f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645986158160,
+      "stop" : 1645986164006,
+      "duration" : 5846
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Buscar um local pelo ID '03' e validar pelo nome",
+    "uid" : "6fae7d323566bb29",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645987351083,
+      "stop" : 1645987351510,
+      "duration" : 427
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "testar o 'update'",
-    "uid" : "b04ff82959703eb",
+    "uid" : "1f9e2931977c4e1a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -66,29 +287,12 @@
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Buscar um local pelo ID '03' e validar pelo nome",
-    "uid" : "eed5ecae5370e980",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645982211657,
-      "stop" : 1645982212070,
-      "duration" : 413
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
     "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Selecionar o filtro Active",
-    "uid" : "e26592bc4277f03",
+    "uid" : "86149a50157902e",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -104,14 +308,167 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "buscar um episódio pelo ID e validar pelo nome e data de exibição",
-    "uid" : "3dc3c214e0819f17",
+    "name" : "verificar itens cadastrados na lista",
+    "uid" : "51783e4eb2f7f443",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1645982210871,
-      "stop" : 1645982211655,
-      "duration" : 784
+      "start" : 1645987358118,
+      "stop" : 1645987361124,
+      "duration" : 3006
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "buscar um personagem pelo ID e validar pelo nome e espécie",
+    "uid" : "f9c8051b850b152d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645986154630,
+      "stop" : 1645986155729,
+      "duration" : 1099
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verificar itens cadastrados na lista",
+    "uid" : "e66791a16da6fa31",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645982218896,
+      "stop" : 1645982222041,
+      "duration" : 3145
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Buscar um local pelo ID '03' e validar pelo nome",
+    "uid" : "f2adbde89aad4b77",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645982211657,
+      "stop" : 1645982212070,
+      "duration" : 413
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "marcar um item como completo",
+    "uid" : "700c22c072629e0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645986172806,
+      "stop" : 1645986173893,
+      "duration" : 1087
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testar o 'read'",
+    "uid" : "1fe5464fbbfc2b52",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645982214337,
+      "stop" : 1645982214717,
+      "duration" : 380
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Selecionar o filtro Active",
+    "uid" : "96622429a508322e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645986173898,
+      "stop" : 1645986174956,
+      "duration" : 1058
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "buscar um episódio pelo ID e validar pelo nome e data de exibição",
+    "uid" : "e7deedb001d90179",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645987350242,
+      "stop" : 1645987351080,
+      "duration" : 838
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verificar itens cadastrados na lista",
+    "uid" : "ff3fc4283d21e03b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645986169034,
+      "stop" : 1645986171588,
+      "duration" : 2554
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "buscar um episódio pelo ID e validar pelo nome e data de exibição",
+    "uid" : "d8a56d1b34f7e25f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645986155732,
+      "stop" : 1645986156539,
+      "duration" : 807
     },
     "flaky" : false,
     "newFailed" : false,
@@ -122,7 +479,7 @@
     "parameters" : [ ]
   }, {
     "name" : "testar o 'delete'",
-    "uid" : "58b8bae56bfb025c",
+    "uid" : "f36389fbd44d60f5",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -138,14 +495,48 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "testar o 'update'",
-    "uid" : "1c92b8c98ba06392",
+    "name" : "Estando com o filtro All ativo clicar em Clear completed",
+    "uid" : "65ae679081045e53",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1645982214724,
-      "stop" : 1645982215102,
-      "duration" : 378
+      "start" : 1645987364464,
+      "stop" : 1645987365612,
+      "duration" : 1148
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "buscar um personagem pelo ID e validar pelo nome e espécie",
+    "uid" : "990dc31ed4e3b72f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645987349317,
+      "stop" : 1645987350238,
+      "duration" : 921
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "buscar um personagem pelo ID e validar pelo nome e espécie",
+    "uid" : "d271366dcaf31e4d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1645982209786,
+      "stop" : 1645982210868,
+      "duration" : 1082
     },
     "flaky" : false,
     "newFailed" : false,
@@ -155,25 +546,25 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "Buscar um local pelo ID '03' e validar pelo nome",
-    "uid" : "4e5994c0a0f0cc3c",
+    "name" : "marcar um item como completo",
+    "uid" : "1e7f40b7052ae8ce",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1645986156543,
-      "stop" : 1645986156964,
-      "duration" : 421
+      "start" : 1645982223250,
+      "stop" : 1645982224354,
+      "duration" : 1104
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "testar o 'create'",
-    "uid" : "9227267e499e0738",
+    "uid" : "7aebb5d84948b0ab",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -190,109 +581,7 @@
     "parameters" : [ ]
   }, {
     "name" : "excluir itens da lista",
-    "uid" : "989da68aa08bb014",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645986171630,
-      "stop" : 1645986172800,
-      "duration" : 1170
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "marcar um item como completo",
-    "uid" : "806fdac97a37ee2d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645982223250,
-      "stop" : 1645982224354,
-      "duration" : 1104
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "testar o 'delete'",
-    "uid" : "5d06d3d907a3548a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645986164827,
-      "stop" : 1645986165211,
-      "duration" : 384
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "marcar um item como completo",
-    "uid" : "c05631bec33bb196",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645986172806,
-      "stop" : 1645986173893,
-      "duration" : 1087
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "buscar um personagem pelo ID e validar pelo nome e espécie",
-    "uid" : "5e120815ba8fb17b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645986154630,
-      "stop" : 1645986155729,
-      "duration" : 1099
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "buscar um episódio pelo ID e validar pelo nome e data de exibição",
-    "uid" : "21a31338929904a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645986155732,
-      "stop" : 1645986156539,
-      "duration" : 807
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "excluir itens da lista",
-    "uid" : "702aab6df3909d",
+    "uid" : "12b1c6588a84ff83",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -308,99 +597,14 @@
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "testar o 'create'",
-    "uid" : "46eae62b91dfd89b",
+    "name" : "testar o 'update'",
+    "uid" : "3e9a9ff1206a38e7",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1645986158160,
-      "stop" : 1645986164006,
-      "duration" : 5846
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Estando com o filtro All ativo clicar em Clear completed",
-    "uid" : "c97a044e93591ce3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645986174964,
-      "stop" : 1645986176144,
-      "duration" : 1180
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "buscar um personagem pelo ID e validar pelo nome e espécie",
-    "uid" : "f78e11d4e12f8c95",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645982209786,
-      "stop" : 1645982210868,
-      "duration" : 1082
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Selecionar o filtro Active",
-    "uid" : "14bf4a49d847e125",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645986173898,
-      "stop" : 1645986174956,
-      "duration" : 1058
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "verificar itens cadastrados na lista",
-    "uid" : "feeb64fcde9393a5",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645982218896,
-      "stop" : 1645982222041,
-      "duration" : 3145
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "testar o 'read'",
-    "uid" : "a021f6654c184753",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1645982214337,
-      "stop" : 1645982214717,
-      "duration" : 380
+      "start" : 1645982214724,
+      "stop" : 1645982215102,
+      "duration" : 378
     },
     "flaky" : false,
     "newFailed" : false,

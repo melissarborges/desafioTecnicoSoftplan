@@ -1,0 +1,173 @@
+{
+  "uid" : "9e90d17f3aff04f7",
+  "name" : "testar o 'update'",
+  "fullName" : "testar o 'update'",
+  "historyId" : "2ceabf010ba13ba4a95cedef5182ddcb",
+  "time" : {
+    "start" : 1645987354032,
+    "stop" : 1645987354454,
+    "duration" : 422
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1645987354033,
+        "stop" : 1645987354218,
+        "duration" : 185
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "POST 200 https://api.spacex.land/graphql/",
+        "time" : {
+          "start" : 1645987354040,
+          "stop" : 1645987354218,
+          "duration" : 178
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 200 https://api.spacex.land/graphql/",
+      "time" : {
+        "start" : 1645987354219,
+        "stop" : 1645987354449,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **Melissa R** to equal **Melissa R**",
+      "time" : {
+        "start" : 1645987354453,
+        "stop" : 1645987354453,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Melissa R"
+      }, {
+        "name" : "expected",
+        "value" : "Melissa R"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **5** to be at least **1**",
+      "time" : {
+        "start" : 1645987354453,
+        "stop" : 1645987354453,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "5"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **200** to equal **200**",
+      "time" : {
+        "start" : 1645987354453,
+        "stop" : 1645987354453,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Automatizar e validar o GRUD do endpoint de users"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1f9e2931977c4e1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645986164437,
+        "stop" : 1645986164824,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "3e9a9ff1206a38e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982214724,
+        "stop" : 1645982215102,
+        "duration" : 378
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e90d17f3aff04f7.json",
+  "parameterValues" : [ ]
+}

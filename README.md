@@ -1,6 +1,6 @@
 # Desafio Técnico Softplan
 
-## Este projeto foi desenvolvido em JavaScript com Cypress
+ Este projeto foi desenvolvido em JavaScript com Cypress
 
 # Pré-requisitos e configurações iniciais:
 

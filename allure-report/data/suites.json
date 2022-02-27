@@ -1,0 +1,221 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Validar endpoints da API",
+    "children" : [ {
+      "name" : "buscar um personagem pelo ID e validar pelo nome e espécie",
+      "uid" : "75f0a9d28f37b07",
+      "parentUid" : "0f92f455209ab4fbebdce9005423f674",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982209786,
+        "stop" : 1645982210868,
+        "duration" : 1082
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "buscar um episódio pelo ID e validar pelo nome e data de exibição",
+      "uid" : "fd37415f542037bf",
+      "parentUid" : "0f92f455209ab4fbebdce9005423f674",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982210871,
+        "stop" : 1645982211655,
+        "duration" : 784
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Buscar um local pelo ID '03' e validar pelo nome",
+      "uid" : "816d28210d45b2f5",
+      "parentUid" : "0f92f455209ab4fbebdce9005423f674",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982211657,
+        "stop" : 1645982212070,
+        "duration" : 413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0f92f455209ab4fbebdce9005423f674"
+  }, {
+    "name" : "Automatizar e validar o GRUD do endpoint de users",
+    "children" : [ {
+      "name" : "testar o 'create'",
+      "uid" : "6c0a2763659d9d5d",
+      "parentUid" : "ba4985602f0315fd24af51e2290cec15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982213378,
+        "stop" : 1645982214332,
+        "duration" : 954
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testar o 'read'",
+      "uid" : "fa04f1bb5e5f3bad",
+      "parentUid" : "ba4985602f0315fd24af51e2290cec15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982214337,
+        "stop" : 1645982214717,
+        "duration" : 380
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testar o 'update'",
+      "uid" : "c3fa3e6072f702e8",
+      "parentUid" : "ba4985602f0315fd24af51e2290cec15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982214724,
+        "stop" : 1645982215102,
+        "duration" : 378
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testar o 'delete'",
+      "uid" : "44ef78eff787e603",
+      "parentUid" : "ba4985602f0315fd24af51e2290cec15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982215105,
+        "stop" : 1645982215498,
+        "duration" : 393
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ba4985602f0315fd24af51e2290cec15"
+  }, {
+    "name" : "Tickets",
+    "children" : [ {
+      "name" : "verificar itens cadastrados na lista",
+      "uid" : "b172bd83d9f27e4",
+      "parentUid" : "881fe284de4fbdf966b5f4545b3e085c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982218896,
+        "stop" : 1645982222041,
+        "duration" : 3145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "excluir itens da lista",
+      "uid" : "198f8b1c478b5d2c",
+      "parentUid" : "881fe284de4fbdf966b5f4545b3e085c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982222085,
+        "stop" : 1645982223245,
+        "duration" : 1160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "marcar um item como completo",
+      "uid" : "809c3841ccc3b39f",
+      "parentUid" : "881fe284de4fbdf966b5f4545b3e085c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982223250,
+        "stop" : 1645982224354,
+        "duration" : 1104
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Selecionar o filtro Active",
+      "uid" : "da599f723f7c0b98",
+      "parentUid" : "881fe284de4fbdf966b5f4545b3e085c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982224360,
+        "stop" : 1645982225443,
+        "duration" : 1083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Estando com o filtro All ativo clicar em Clear completed",
+      "uid" : "b55b2f1fcdc2c1a0",
+      "parentUid" : "881fe284de4fbdf966b5f4545b3e085c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982225448,
+        "stop" : 1645982226588,
+        "duration" : 1140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "881fe284de4fbdf966b5f4545b3e085c"
+  } ]
+}

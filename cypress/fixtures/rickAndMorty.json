@@ -1,0 +1,35 @@
+{
+    "personagem": [
+        {
+            "rick": {
+                "id": "01",
+                "name": "Rick Sanchez",
+                "species": "Human"
+            }
+        },
+        {
+            "arcade": {
+                "id": "23",
+                "name": "Arcade Alien",
+                "species": "Alien"
+            }
+        }
+    ],
+    "episodio": [
+        {
+            "pilot": {
+                "id": "01",
+                "name": "Pilot",
+                "air_date": "December 2, 2013"
+            }
+        },
+        {
+            "rickmurai":{
+                "id": "51",
+                "name": "Rickmurai Jack",
+                "air_date": "September 5, 2021"
+            }
+        }
+        
+    ]
+}

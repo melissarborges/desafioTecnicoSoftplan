@@ -1,0 +1,460 @@
+{
+  "uid" : "da599f723f7c0b98",
+  "name" : "Selecionar o filtro Active",
+  "fullName" : "Selecionar o filtro Active",
+  "historyId" : "dfe9c85fec8e385351dea3df1d834f37",
+  "time" : {
+    "start" : 1645982224360,
+    "stop" : 1645982225443,
+    "duration" : 1083
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1645982224360,
+        "stop" : 1645982225355,
+        "duration" : 995
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://todomvc.com/examples/typescript-react/#/completed",
+        "time" : {
+          "start" : 1645982224390,
+          "stop" : 1645982224474,
+          "duration" : 84
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://todomvc.com/learn.json",
+        "time" : {
+          "start" : 1645982224474,
+          "stop" : 1645982224474,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1884636310&t=pageview&_s=1&dl=https://todomvc.com/examples/typescript-react/&ul=pt-br&de=UTF-8&dt=React • TodoMVC&sd=24-bit&sr=2560x1080&vp=1000x660&je=0&_u=IEBAAEABAAAAAC~&jid=375677913&gjid=800429971&cid=1006570809.1645982224&tid=UA-31081062-1&_gid=15681554.1645982224&_r=1&_slc=1&z=213252475",
+        "time" : {
+          "start" : 1645982224474,
+          "stop" : 1645982224474,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get .new-todo",
+        "time" : {
+          "start" : 1645982224474,
+          "stop" : 1645982224476,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type coisa1 {enter}",
+        "time" : {
+          "start" : 1645982224476,
+          "stop" : 1645982224629,
+          "duration" : 153
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1884636310&t=pageview&_s=1&dl=https%3A%2F%2Ftodomvc.com%2Fexamples%2Ftypescript-react%2F&ul=pt-br&de=UTF-8&dt=React%20%E2%80%A2%20TodoMVC&sd=24-bit&sr=2560x1080&vp=1000x660&je=0&_u=IEBAAEABAAAAAC~&jid=375677913&gjid=800429971&cid=1006570809.1645982224&tid=UA-31081062-1&_gid=15681554.1645982224&_r=1&_slc=1&z=213252475",
+        "time" : {
+          "start" : 1645982224629,
+          "stop" : 1645982224629,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit https://todomvc.com/examples/typescript-react/#/completed",
+        "time" : {
+          "start" : 1645982224629,
+          "stop" : 1645982224631,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get .new-todo",
+        "time" : {
+          "start" : 1645982224631,
+          "stop" : 1645982224632,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type coisa2 {enter}",
+        "time" : {
+          "start" : 1645982224632,
+          "stop" : 1645982224782,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit https://todomvc.com/examples/typescript-react/#/completed",
+        "time" : {
+          "start" : 1645982224782,
+          "stop" : 1645982224783,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get .new-todo",
+        "time" : {
+          "start" : 1645982224783,
+          "stop" : 1645982224785,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type coisa3 {enter}",
+        "time" : {
+          "start" : 1645982224785,
+          "stop" : 1645982224935,
+          "duration" : 150
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit https://todomvc.com/examples/typescript-react/#/completed",
+        "time" : {
+          "start" : 1645982224936,
+          "stop" : 1645982224939,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get .new-todo",
+        "time" : {
+          "start" : 1645982224939,
+          "stop" : 1645982224942,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type coisa4 {enter}",
+        "time" : {
+          "start" : 1645982224942,
+          "stop" : 1645982225105,
+          "duration" : 163
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit https://todomvc.com/examples/typescript-react/#/completed",
+        "time" : {
+          "start" : 1645982225105,
+          "stop" : 1645982225107,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get .new-todo",
+        "time" : {
+          "start" : 1645982225107,
+          "stop" : 1645982225109,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type coisa5 {enter}",
+        "time" : {
+          "start" : 1645982225109,
+          "stop" : 1645982225265,
+          "duration" : 156
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get a[href='#/']",
+        "time" : {
+          "start" : 1645982225265,
+          "stop" : 1645982225269,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1645982225269,
+          "stop" : 1645982225355,
+          "duration" : 86
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://todomvc.com/examples/typescript-react/#/",
+        "time" : {
+          "start" : 1645982225355,
+          "stop" : 1645982225355,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 21,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get [data-reactid='.0.2.1.2'] > a",
+      "time" : {
+        "start" : 1645982225356,
+        "stop" : 1645982225358,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1645982225358,
+        "stop" : 1645982225438,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "new url https://todomvc.com/examples/typescript-react/#/active",
+      "time" : {
+        "start" : 1645982225438,
+        "stop" : 1645982225438,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get a[href=\"#/active\"]",
+      "time" : {
+        "start" : 1645982225438,
+        "stop" : 1645982225442,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<a.selected>** to have attribute **class** with the value **selected**",
+      "time" : {
+        "start" : 1645982225442,
+        "stop" : 1645982225442,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "selected"
+      }, {
+        "name" : "expected",
+        "value" : "selected"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 27,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Tickets"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da599f723f7c0b98.json",
+  "parameterValues" : [ ]
+}

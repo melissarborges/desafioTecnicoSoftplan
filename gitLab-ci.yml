@@ -1,0 +1,24 @@
+stages:
+  - test
+  - allure
+
+test:
+  image: cypress/base:16.14.0
+  stage: test
+  script:
+    - yarn upgrade && yarn
+    - yarn start:ci &
+    - yarn cy:run
+
+allure_report:
+  stage: allure
+  when: always
+  dependencies:
+    - test
+  script:
+    - yarn allure:generate
+  artifacts:
+    when: always
+    paths:
+      - cypress/allure-report/
+      - cypress/allure-results/

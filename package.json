@@ -1,0 +1,21 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "DESAFIO QA Softplan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "allure:generate": "yarn allure generate --clean allure-results",
+    "allure:open": "allure open allure-report",
+    "cy:run": "cypress run --config video=false --env allure=true"
+  },
+  "author": "melissarborges",
+  "license": "MIT",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.5",
+    "cypress": "^9.5.0"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.17.2"
+  }
+}

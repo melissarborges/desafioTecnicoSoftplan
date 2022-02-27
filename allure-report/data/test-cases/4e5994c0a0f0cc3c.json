@@ -1,19 +1,19 @@
 {
-  "uid" : "816d28210d45b2f5",
+  "uid" : "4e5994c0a0f0cc3c",
   "name" : "Buscar um local pelo ID '03' e validar pelo nome",
   "fullName" : "Buscar um local pelo ID '03' e validar pelo nome",
   "historyId" : "a0f019a341a0832534498e00318665de",
   "time" : {
-    "start" : 1645982211657,
-    "stop" : 1645982212070,
-    "duration" : 413
+    "start" : 1645986156543,
+    "stop" : 1645986156964,
+    "duration" : 421
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "POST 200 https://rickandmortyapi.com/graphql",
       "time" : {
-        "start" : 1645982211666,
-        "stop" : 1645982212063,
-        "duration" : 397
+        "start" : 1645986156553,
+        "stop" : 1645986156958,
+        "duration" : 405
       },
       "status" : "passed",
       "steps" : [ ],
@@ -36,8 +36,8 @@
     }, {
       "name" : "assert expected **Citadel of Ricks** to equal **Citadel of Ricks**",
       "time" : {
-        "start" : 1645982212070,
-        "stop" : 1645982212070,
+        "start" : 1645986156963,
+        "stop" : 1645986156963,
         "duration" : 0
       },
       "status" : "passed",
@@ -57,8 +57,8 @@
     }, {
       "name" : "assert expected **200** to equal **200**",
       "time" : {
-        "start" : 1645982212070,
-        "stop" : 1645982212070,
+        "start" : 1645986156963,
+        "stop" : 1645986156963,
         "duration" : 0
       },
       "status" : "passed",
@@ -97,10 +97,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "eed5ecae5370e980",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982211657,
+        "stop" : 1645982212070,
+        "duration" : 413
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "816d28210d45b2f5.json",
+  "source" : "4e5994c0a0f0cc3c.json",
   "parameterValues" : [ ]
 }

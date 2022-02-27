@@ -1,12 +1,12 @@
 {
-  "uid" : "6c0a2763659d9d5d",
-  "name" : "testar o 'create'",
-  "fullName" : "testar o 'create'",
-  "historyId" : "2bc390a7725acdd9ac0d79fb2ba75de2",
+  "uid" : "58b8bae56bfb025c",
+  "name" : "testar o 'delete'",
+  "fullName" : "testar o 'delete'",
+  "historyId" : "e5e673b8d6e33ce8d306adcbd6a86dc9",
   "time" : {
-    "start" : 1645982213378,
-    "stop" : 1645982214332,
-    "duration" : 954
+    "start" : 1645982215105,
+    "stop" : 1645982215498,
+    "duration" : 393
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1645982213379,
-        "stop" : 1645982214142,
-        "duration" : 763
+        "start" : 1645982215105,
+        "stop" : 1645982215316,
+        "duration" : 211
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "POST 200 https://api.spacex.land/graphql/",
         "time" : {
-          "start" : 1645982213392,
-          "stop" : 1645982214141,
-          "duration" : 749
+          "start" : 1645982215112,
+          "stop" : 1645982215315,
+          "duration" : 203
         },
         "status" : "passed",
         "steps" : [ ],
@@ -51,9 +51,9 @@
     }, {
       "name" : "POST 200 https://api.spacex.land/graphql/",
       "time" : {
-        "start" : 1645982214143,
-        "stop" : 1645982214323,
-        "duration" : 180
+        "start" : 1645982215316,
+        "stop" : 1645982215495,
+        "duration" : 179
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,10 +64,10 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "assert expected **Melissa** to equal **Melissa**",
+      "name" : "assert expected **5** to be at least **1**",
       "time" : {
-        "start" : 1645982214331,
-        "stop" : 1645982214331,
+        "start" : 1645982215498,
+        "stop" : 1645982215498,
         "duration" : 0
       },
       "status" : "passed",
@@ -75,73 +75,31 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "Melissa"
-      }, {
-        "name" : "expected",
-        "value" : "Melissa"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **Softplan 01** to equal **Softplan 01**",
-      "time" : {
-        "start" : 1645982214331,
-        "stop" : 1645982214331,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "Softplan 01"
-      }, {
-        "name" : "expected",
-        "value" : "Softplan 01"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **@melissarborges** to equal **@melissarborges**",
-      "time" : {
-        "start" : 1645982214331,
-        "stop" : 1645982214331,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "@melissarborges"
-      }, {
-        "name" : "expected",
-        "value" : "@melissarborges"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **1** to be at least **1**",
-      "time" : {
-        "start" : 1645982214331,
-        "stop" : 1645982214331,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "1"
+        "value" : "5"
       }, {
         "name" : "expected",
         "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **Melissa R** to equal **Melissa R**",
+      "time" : {
+        "start" : 1645982215498,
+        "stop" : 1645982215498,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Melissa R"
+      }, {
+        "name" : "expected",
+        "value" : "Melissa R"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
@@ -150,8 +108,8 @@
     }, {
       "name" : "assert expected **200** to equal **200**",
       "time" : {
-        "start" : 1645982214331,
-        "stop" : 1645982214331,
+        "start" : 1645982215498,
+        "stop" : 1645982215498,
         "duration" : 0
       },
       "status" : "passed",
@@ -171,7 +129,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 8,
+    "stepsCount" : 6,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
@@ -186,14 +144,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6c0a2763659d9d5d.json",
+  "source" : "58b8bae56bfb025c.json",
   "parameterValues" : [ ]
 }

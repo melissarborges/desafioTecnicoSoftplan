@@ -1,12 +1,12 @@
 {
-  "uid" : "198f8b1c478b5d2c",
-  "name" : "excluir itens da lista",
-  "fullName" : "excluir itens da lista",
-  "historyId" : "a46706d942da3d689e9956d0dc62adb4",
+  "uid" : "feeb64fcde9393a5",
+  "name" : "verificar itens cadastrados na lista",
+  "fullName" : "verificar itens cadastrados na lista",
+  "historyId" : "77ab7ef3751443eb246a6584d050ef41",
   "time" : {
-    "start" : 1645982222085,
-    "stop" : 1645982223245,
-    "duration" : 1160
+    "start" : 1645982218896,
+    "stop" : 1645982222041,
+    "duration" : 3145
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1645982222086,
-        "stop" : 1645982223105,
-        "duration" : 1019
+        "start" : 1645982218898,
+        "stop" : 1645982221906,
+        "duration" : 3008
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "visit https://todomvc.com/examples/typescript-react/#/completed",
         "time" : {
-          "start" : 1645982222108,
-          "stop" : 1645982222213,
-          "duration" : 105
+          "start" : 1645982218909,
+          "stop" : 1645982220854,
+          "duration" : 1945
         },
         "status" : "passed",
         "steps" : [ ],
@@ -42,10 +42,10 @@
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       }, {
-        "name" : "GET https://todomvc.com/learn.json",
+        "name" : "GET 200 /learn.json",
         "time" : {
-          "start" : 1645982222213,
-          "stop" : 1645982222213,
+          "start" : 1645982220853,
+          "stop" : 1645982220853,
           "duration" : 0
         },
         "status" : "passed",
@@ -57,10 +57,10 @@
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       }, {
-        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1298493908&t=pageview&_s=1&dl=https://todomvc.com/examples/typescript-react/&ul=pt-br&de=UTF-8&dt=React • TodoMVC&sd=24-bit&sr=2560x1080&vp=1000x660&je=0&_u=IEBAAEABAAAAAC~&jid=1269450004&gjid=53601804&cid=725753770.1645982222&tid=UA-31081062-1&_gid=208543002.1645982222&_r=1&_slc=1&z=471458438",
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1820156472&t=pageview&_s=1&dl=https://todomvc.com/examples/typescript-react/&ul=pt-br&de=UTF-8&dt=React • TodoMVC&sd=24-bit&sr=2560x1080&vp=983x660&je=0&_u=IEBAAEABAAAAAC~&jid=1211673748&gjid=45928270&cid=506258503.1645982221&tid=UA-31081062-1&_gid=1861667559.1645982221&_r=1&_slc=1&z=1761115834",
         "time" : {
-          "start" : 1645982222213,
-          "stop" : 1645982222213,
+          "start" : 1645982220854,
+          "stop" : 1645982220854,
           "duration" : 0
         },
         "status" : "passed",
@@ -74,9 +74,9 @@
       }, {
         "name" : "get .new-todo",
         "time" : {
-          "start" : 1645982222213,
-          "stop" : 1645982222218,
-          "duration" : 5
+          "start" : 1645982220854,
+          "stop" : 1645982220863,
+          "duration" : 9
         },
         "status" : "passed",
         "steps" : [ ],
@@ -89,9 +89,9 @@
       }, {
         "name" : "type coisa1 {enter}",
         "time" : {
-          "start" : 1645982222218,
-          "stop" : 1645982222384,
-          "duration" : 166
+          "start" : 1645982220863,
+          "stop" : 1645982221051,
+          "duration" : 188
         },
         "status" : "passed",
         "steps" : [ ],
@@ -102,10 +102,10 @@
         "attachmentsCount" : 0,
         "shouldDisplayMessage" : false
       }, {
-        "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1298493908&t=pageview&_s=1&dl=https%3A%2F%2Ftodomvc.com%2Fexamples%2Ftypescript-react%2F&ul=pt-br&de=UTF-8&dt=React%20%E2%80%A2%20TodoMVC&sd=24-bit&sr=2560x1080&vp=1000x660&je=0&_u=IEBAAEABAAAAAC~&jid=1269450004&gjid=53601804&cid=725753770.1645982222&tid=UA-31081062-1&_gid=208543002.1645982222&_r=1&_slc=1&z=471458438",
+        "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1820156472&t=pageview&_s=1&dl=https%3A%2F%2Ftodomvc.com%2Fexamples%2Ftypescript-react%2F&ul=pt-br&de=UTF-8&dt=React%20%E2%80%A2%20TodoMVC&sd=24-bit&sr=2560x1080&vp=983x660&je=0&_u=IEBAAEABAAAAAC~&jid=1211673748&gjid=45928270&cid=506258503.1645982221&tid=UA-31081062-1&_gid=1861667559.1645982221&_r=1&_slc=1&z=1761115834",
         "time" : {
-          "start" : 1645982222384,
-          "stop" : 1645982222384,
+          "start" : 1645982221051,
+          "stop" : 1645982221051,
           "duration" : 0
         },
         "status" : "passed",
@@ -119,9 +119,9 @@
       }, {
         "name" : "visit https://todomvc.com/examples/typescript-react/#/completed",
         "time" : {
-          "start" : 1645982222384,
-          "stop" : 1645982222385,
-          "duration" : 1
+          "start" : 1645982221051,
+          "stop" : 1645982221054,
+          "duration" : 3
         },
         "status" : "passed",
         "steps" : [ ],
@@ -134,9 +134,9 @@
       }, {
         "name" : "get .new-todo",
         "time" : {
-          "start" : 1645982222385,
-          "stop" : 1645982222388,
-          "duration" : 3
+          "start" : 1645982221054,
+          "stop" : 1645982221059,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
@@ -149,9 +149,9 @@
       }, {
         "name" : "type coisa2 {enter}",
         "time" : {
-          "start" : 1645982222388,
-          "stop" : 1645982222544,
-          "duration" : 156
+          "start" : 1645982221059,
+          "stop" : 1645982221221,
+          "duration" : 162
         },
         "status" : "passed",
         "steps" : [ ],
@@ -164,9 +164,9 @@
       }, {
         "name" : "visit https://todomvc.com/examples/typescript-react/#/completed",
         "time" : {
-          "start" : 1645982222544,
-          "stop" : 1645982222545,
-          "duration" : 1
+          "start" : 1645982221221,
+          "stop" : 1645982221224,
+          "duration" : 3
         },
         "status" : "passed",
         "steps" : [ ],
@@ -179,9 +179,9 @@
       }, {
         "name" : "get .new-todo",
         "time" : {
-          "start" : 1645982222545,
-          "stop" : 1645982222547,
-          "duration" : 2
+          "start" : 1645982221224,
+          "stop" : 1645982221229,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
@@ -194,9 +194,9 @@
       }, {
         "name" : "type coisa3 {enter}",
         "time" : {
-          "start" : 1645982222547,
-          "stop" : 1645982222704,
-          "duration" : 157
+          "start" : 1645982221229,
+          "stop" : 1645982221398,
+          "duration" : 169
         },
         "status" : "passed",
         "steps" : [ ],
@@ -209,9 +209,9 @@
       }, {
         "name" : "visit https://todomvc.com/examples/typescript-react/#/completed",
         "time" : {
-          "start" : 1645982222704,
-          "stop" : 1645982222705,
-          "duration" : 1
+          "start" : 1645982221398,
+          "stop" : 1645982221402,
+          "duration" : 4
         },
         "status" : "passed",
         "steps" : [ ],
@@ -224,9 +224,9 @@
       }, {
         "name" : "get .new-todo",
         "time" : {
-          "start" : 1645982222706,
-          "stop" : 1645982222708,
-          "duration" : 2
+          "start" : 1645982221403,
+          "stop" : 1645982221411,
+          "duration" : 8
         },
         "status" : "passed",
         "steps" : [ ],
@@ -239,9 +239,9 @@
       }, {
         "name" : "type coisa4 {enter}",
         "time" : {
-          "start" : 1645982222708,
-          "stop" : 1645982222864,
-          "duration" : 156
+          "start" : 1645982221412,
+          "stop" : 1645982221597,
+          "duration" : 185
         },
         "status" : "passed",
         "steps" : [ ],
@@ -254,9 +254,9 @@
       }, {
         "name" : "visit https://todomvc.com/examples/typescript-react/#/completed",
         "time" : {
-          "start" : 1645982222864,
-          "stop" : 1645982222865,
-          "duration" : 1
+          "start" : 1645982221597,
+          "stop" : 1645982221602,
+          "duration" : 5
         },
         "status" : "passed",
         "steps" : [ ],
@@ -269,9 +269,9 @@
       }, {
         "name" : "get .new-todo",
         "time" : {
-          "start" : 1645982222865,
-          "stop" : 1645982222867,
-          "duration" : 2
+          "start" : 1645982221602,
+          "stop" : 1645982221614,
+          "duration" : 12
         },
         "status" : "passed",
         "steps" : [ ],
@@ -284,9 +284,9 @@
       }, {
         "name" : "type coisa5 {enter}",
         "time" : {
-          "start" : 1645982222867,
-          "stop" : 1645982223020,
-          "duration" : 153
+          "start" : 1645982221614,
+          "stop" : 1645982221796,
+          "duration" : 182
         },
         "status" : "passed",
         "steps" : [ ],
@@ -299,9 +299,9 @@
       }, {
         "name" : "get a[href='#/']",
         "time" : {
-          "start" : 1645982223020,
-          "stop" : 1645982223022,
-          "duration" : 2
+          "start" : 1645982221796,
+          "stop" : 1645982221808,
+          "duration" : 12
         },
         "status" : "passed",
         "steps" : [ ],
@@ -314,9 +314,9 @@
       }, {
         "name" : "click",
         "time" : {
-          "start" : 1645982223022,
-          "stop" : 1645982223104,
-          "duration" : 82
+          "start" : 1645982221808,
+          "stop" : 1645982221905,
+          "duration" : 97
         },
         "status" : "passed",
         "steps" : [ ],
@@ -329,8 +329,8 @@
       }, {
         "name" : "new url https://todomvc.com/examples/typescript-react/#/",
         "time" : {
-          "start" : 1645982223104,
-          "stop" : 1645982223104,
+          "start" : 1645982221905,
+          "stop" : 1645982221905,
           "duration" : 0
         },
         "status" : "passed",
@@ -349,11 +349,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "get .todo-list li",
+      "name" : "get div>label",
       "time" : {
-        "start" : 1645982223105,
-        "stop" : 1645982223111,
-        "duration" : 6
+        "start" : 1645982221907,
+        "stop" : 1645982221921,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -364,11 +364,11 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "wrap <button.destroy>",
+      "name" : "eq 0",
       "time" : {
-        "start" : 1645982223113,
-        "stop" : 1645982223114,
-        "duration" : 1
+        "start" : 1645982221921,
+        "stop" : 1645982221940,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
@@ -379,116 +379,32 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "click {force: true}",
+      "name" : "assert expected **<label>** to have text **coisa1**",
       "time" : {
-        "start" : 1645982223115,
-        "stop" : 1645982223171,
-        "duration" : 56
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "log coisa1 foi removido",
-      "time" : {
-        "start" : 1645982223171,
-        "stop" : 1645982223172,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "wrap <button.destroy>",
-      "time" : {
-        "start" : 1645982223172,
-        "stop" : 1645982223173,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "click {force: true}",
-      "time" : {
-        "start" : 1645982223173,
-        "stop" : 1645982223237,
-        "duration" : 64
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "log coisa3 foi removido",
-      "time" : {
-        "start" : 1645982223237,
-        "stop" : 1645982223238,
-        "duration" : 1
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "get .todo-list",
-      "time" : {
-        "start" : 1645982223238,
-        "stop" : 1645982223241,
-        "duration" : 3
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "hasContent" : false,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
-      "name" : "assert expected **<ul.todo-list>** not to contain text **coisa1**",
-      "time" : {
-        "start" : 1645982223241,
-        "stop" : 1645982223241,
+        "start" : 1645982221940,
+        "stop" : 1645982221940,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
-      "parameters" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "coisa1"
+      }, {
+        "name" : "expected",
+        "value" : "coisa1"
+      } ],
       "stepsCount" : 0,
-      "hasContent" : false,
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "get .todo-list",
+      "name" : "get div>label",
       "time" : {
-        "start" : 1645982223241,
-        "stop" : 1645982223245,
-        "duration" : 4
+        "start" : 1645982221940,
+        "stop" : 1645982221957,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ ],
@@ -499,24 +415,198 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "assert expected **<ul.todo-list>** not to contain text **coisa3**",
+      "name" : "eq 1",
       "time" : {
-        "start" : 1645982223245,
-        "stop" : 1645982223245,
+        "start" : 1645982221957,
+        "stop" : 1645982221966,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<label>** to have text **coisa2**",
+      "time" : {
+        "start" : 1645982221966,
+        "stop" : 1645982221966,
         "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "coisa2"
+      }, {
+        "name" : "expected",
+        "value" : "coisa2"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get div>label",
+      "time" : {
+        "start" : 1645982221966,
+        "stop" : 1645982221979,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "eq 2",
+      "time" : {
+        "start" : 1645982221979,
+        "stop" : 1645982221992,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<label>** to have text **coisa3**",
+      "time" : {
+        "start" : 1645982221992,
+        "stop" : 1645982221992,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "coisa3"
+      }, {
+        "name" : "expected",
+        "value" : "coisa3"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get div>label",
+      "time" : {
+        "start" : 1645982221992,
+        "stop" : 1645982222005,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "eq 3",
+      "time" : {
+        "start" : 1645982222005,
+        "stop" : 1645982222015,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<label>** to have text **coisa4**",
+      "time" : {
+        "start" : 1645982222015,
+        "stop" : 1645982222015,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "coisa4"
+      }, {
+        "name" : "expected",
+        "value" : "coisa4"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get div>label",
+      "time" : {
+        "start" : 1645982222015,
+        "stop" : 1645982222030,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "eq 4",
+      "time" : {
+        "start" : 1645982222030,
+        "stop" : 1645982222040,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<label>** to have text **coisa5**",
+      "time" : {
+        "start" : 1645982222040,
+        "stop" : 1645982222040,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "coisa5"
+      }, {
+        "name" : "expected",
+        "value" : "coisa5"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 33,
+    "stepsCount" : 37,
     "hasContent" : true,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
@@ -531,14 +621,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "198f8b1c478b5d2c.json",
+  "source" : "feeb64fcde9393a5.json",
   "parameterValues" : [ ]
 }

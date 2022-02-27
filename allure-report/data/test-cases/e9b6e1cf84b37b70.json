@@ -1,19 +1,19 @@
 {
-  "uid" : "fa04f1bb5e5f3bad",
+  "uid" : "e9b6e1cf84b37b70",
   "name" : "testar o 'read'",
   "fullName" : "testar o 'read'",
   "historyId" : "30498491d540ddf8add2f508c4ad66a9",
   "time" : {
-    "start" : 1645982214337,
-    "stop" : 1645982214717,
-    "duration" : 380
+    "start" : 1645986164017,
+    "stop" : 1645986164432,
+    "duration" : 415
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1645982214338,
-        "stop" : 1645982214519,
-        "duration" : 181
+        "start" : 1645986164018,
+        "stop" : 1645986164224,
+        "duration" : 206
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "POST 200 https://api.spacex.land/graphql/",
         "time" : {
-          "start" : 1645982214344,
-          "stop" : 1645982214519,
-          "duration" : 175
+          "start" : 1645986164027,
+          "stop" : 1645986164223,
+          "duration" : 196
         },
         "status" : "passed",
         "steps" : [ ],
@@ -51,9 +51,9 @@
     }, {
       "name" : "POST 200 https://api.spacex.land/graphql/",
       "time" : {
-        "start" : 1645982214520,
-        "stop" : 1645982214698,
-        "duration" : 178
+        "start" : 1645986164225,
+        "stop" : 1645986164400,
+        "duration" : 175
       },
       "status" : "passed",
       "steps" : [ ],
@@ -66,8 +66,8 @@
     }, {
       "name" : "assert expected **Melissa** to equal **Melissa**",
       "time" : {
-        "start" : 1645982214715,
-        "stop" : 1645982214715,
+        "start" : 1645986164423,
+        "stop" : 1645986164423,
         "duration" : 0
       },
       "status" : "passed",
@@ -87,8 +87,8 @@
     }, {
       "name" : "assert expected **Softplan 01** to include **Softplan**",
       "time" : {
-        "start" : 1645982214715,
-        "stop" : 1645982214715,
+        "start" : 1645986164423,
+        "stop" : 1645986164423,
         "duration" : 0
       },
       "status" : "passed",
@@ -105,8 +105,8 @@
     }, {
       "name" : "assert expected **@melissarborges** to equal **@melissarborges**",
       "time" : {
-        "start" : 1645982214715,
-        "stop" : 1645982214715,
+        "start" : 1645986164423,
+        "stop" : 1645986164423,
         "duration" : 0
       },
       "status" : "passed",
@@ -126,8 +126,8 @@
     }, {
       "name" : "assert expected **200** to equal **200**",
       "time" : {
-        "start" : 1645982214715,
-        "stop" : 1645982214715,
+        "start" : 1645986164424,
+        "stop" : 1645986164424,
         "duration" : 0
       },
       "status" : "passed",
@@ -147,8 +147,8 @@
     }, {
       "name" : "assert expected **Melissa** to equal **Melissa**",
       "time" : {
-        "start" : 1645982214715,
-        "stop" : 1645982214715,
+        "start" : 1645986164424,
+        "stop" : 1645986164424,
         "duration" : 0
       },
       "status" : "passed",
@@ -168,8 +168,8 @@
     }, {
       "name" : "assert expected **Softplan 01** to include **Softplan**",
       "time" : {
-        "start" : 1645982214716,
-        "stop" : 1645982214716,
+        "start" : 1645986164425,
+        "stop" : 1645986164425,
         "duration" : 0
       },
       "status" : "passed",
@@ -186,8 +186,8 @@
     }, {
       "name" : "assert expected **@melissarborges** to equal **@melissarborges**",
       "time" : {
-        "start" : 1645982214716,
-        "stop" : 1645982214716,
+        "start" : 1645986164425,
+        "stop" : 1645986164425,
         "duration" : 0
       },
       "status" : "passed",
@@ -207,8 +207,8 @@
     }, {
       "name" : "assert expected **200** to equal **200**",
       "time" : {
-        "start" : 1645982214716,
-        "stop" : 1645982214716,
+        "start" : 1645986164425,
+        "stop" : 1645986164425,
         "duration" : 0
       },
       "status" : "passed",
@@ -228,8 +228,8 @@
     }, {
       "name" : "assert expected **Melissa** to equal **Melissa**",
       "time" : {
-        "start" : 1645982214716,
-        "stop" : 1645982214716,
+        "start" : 1645986164425,
+        "stop" : 1645986164425,
         "duration" : 0
       },
       "status" : "passed",
@@ -249,8 +249,8 @@
     }, {
       "name" : "assert expected **Softplan 01** to include **Softplan**",
       "time" : {
-        "start" : 1645982214716,
-        "stop" : 1645982214716,
+        "start" : 1645986164425,
+        "stop" : 1645986164425,
         "duration" : 0
       },
       "status" : "passed",
@@ -267,8 +267,8 @@
     }, {
       "name" : "assert expected **@melissarborges** to equal **@melissarborges**",
       "time" : {
-        "start" : 1645982214716,
-        "stop" : 1645982214716,
+        "start" : 1645986164431,
+        "stop" : 1645986164431,
         "duration" : 0
       },
       "status" : "passed",
@@ -288,8 +288,8 @@
     }, {
       "name" : "assert expected **200** to equal **200**",
       "time" : {
-        "start" : 1645982214717,
-        "stop" : 1645982214717,
+        "start" : 1645986164431,
+        "stop" : 1645986164431,
         "duration" : 0
       },
       "status" : "passed",
@@ -309,8 +309,8 @@
     }, {
       "name" : "assert expected **Melissa** to equal **Melissa**",
       "time" : {
-        "start" : 1645982214717,
-        "stop" : 1645982214717,
+        "start" : 1645986164431,
+        "stop" : 1645986164431,
         "duration" : 0
       },
       "status" : "passed",
@@ -330,8 +330,8 @@
     }, {
       "name" : "assert expected **Softplan 01** to include **Softplan**",
       "time" : {
-        "start" : 1645982214717,
-        "stop" : 1645982214717,
+        "start" : 1645986164432,
+        "stop" : 1645986164432,
         "duration" : 0
       },
       "status" : "passed",
@@ -348,8 +348,8 @@
     }, {
       "name" : "assert expected **@melissarborges** to equal **@melissarborges**",
       "time" : {
-        "start" : 1645982214717,
-        "stop" : 1645982214717,
+        "start" : 1645986164432,
+        "stop" : 1645986164432,
         "duration" : 0
       },
       "status" : "passed",
@@ -369,8 +369,8 @@
     }, {
       "name" : "assert expected **200** to equal **200**",
       "time" : {
-        "start" : 1645982214717,
-        "stop" : 1645982214717,
+        "start" : 1645986164432,
+        "stop" : 1645986164432,
         "duration" : 0
       },
       "status" : "passed",
@@ -409,10 +409,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "a021f6654c184753",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982214337,
+        "stop" : 1645982214717,
+        "duration" : 380
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fa04f1bb5e5f3bad.json",
+  "source" : "e9b6e1cf84b37b70.json",
   "parameterValues" : [ ]
 }

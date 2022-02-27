@@ -1,19 +1,19 @@
 {
-  "uid" : "44ef78eff787e603",
-  "name" : "testar o 'delete'",
-  "fullName" : "testar o 'delete'",
-  "historyId" : "e5e673b8d6e33ce8d306adcbd6a86dc9",
+  "uid" : "b04ff82959703eb",
+  "name" : "testar o 'update'",
+  "fullName" : "testar o 'update'",
+  "historyId" : "2ceabf010ba13ba4a95cedef5182ddcb",
   "time" : {
-    "start" : 1645982215105,
-    "stop" : 1645982215498,
-    "duration" : 393
+    "start" : 1645986164437,
+    "stop" : 1645986164824,
+    "duration" : 387
   },
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 0,
+  "retriesCount" : 1,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
@@ -21,17 +21,17 @@
     "steps" : [ {
       "name" : "\"before each\" hook",
       "time" : {
-        "start" : 1645982215105,
-        "stop" : 1645982215316,
-        "duration" : 211
+        "start" : 1645986164438,
+        "stop" : 1645986164633,
+        "duration" : 195
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "POST 200 https://api.spacex.land/graphql/",
         "time" : {
-          "start" : 1645982215112,
-          "stop" : 1645982215315,
-          "duration" : 203
+          "start" : 1645986164448,
+          "stop" : 1645986164632,
+          "duration" : 184
         },
         "status" : "passed",
         "steps" : [ ],
@@ -51,9 +51,9 @@
     }, {
       "name" : "POST 200 https://api.spacex.land/graphql/",
       "time" : {
-        "start" : 1645982215316,
-        "stop" : 1645982215495,
-        "duration" : 179
+        "start" : 1645986164633,
+        "stop" : 1645986164820,
+        "duration" : 187
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,10 +64,31 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
+      "name" : "assert expected **Melissa R** to equal **Melissa R**",
+      "time" : {
+        "start" : 1645986164823,
+        "stop" : 1645986164823,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Melissa R"
+      }, {
+        "name" : "expected",
+        "value" : "Melissa R"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
       "name" : "assert expected **5** to be at least **1**",
       "time" : {
-        "start" : 1645982215498,
-        "stop" : 1645982215498,
+        "start" : 1645986164823,
+        "stop" : 1645986164823,
         "duration" : 0
       },
       "status" : "passed",
@@ -85,31 +106,10 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "assert expected **Melissa R** to equal **Melissa R**",
-      "time" : {
-        "start" : 1645982215498,
-        "stop" : 1645982215498,
-        "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ {
-        "name" : "actual",
-        "value" : "Melissa R"
-      }, {
-        "name" : "expected",
-        "value" : "Melissa R"
-      } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false
-    }, {
       "name" : "assert expected **200** to equal **200**",
       "time" : {
-        "start" : 1645982215498,
-        "stop" : 1645982215498,
+        "start" : 1645986164824,
+        "stop" : 1645986164824,
         "duration" : 0
       },
       "status" : "passed",
@@ -148,10 +148,18 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "1c92b8c98ba06392",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645982214724,
+        "stop" : 1645982215102,
+        "duration" : 378
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "44ef78eff787e603.json",
+  "source" : "b04ff82959703eb.json",
   "parameterValues" : [ ]
 }

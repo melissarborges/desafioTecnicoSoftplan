@@ -1,12 +1,12 @@
 {
-  "uid" : "fd37415f542037bf",
-  "name" : "buscar um episódio pelo ID e validar pelo nome e data de exibição",
-  "fullName" : "buscar um episódio pelo ID e validar pelo nome e data de exibição",
-  "historyId" : "082794d722f92b8aca81187f8d832a49",
+  "uid" : "f78e11d4e12f8c95",
+  "name" : "buscar um personagem pelo ID e validar pelo nome e espécie",
+  "fullName" : "buscar um personagem pelo ID e validar pelo nome e espécie",
+  "historyId" : "2aa525ac8676598e8894cdc06f67c12f",
   "time" : {
-    "start" : 1645982210871,
-    "stop" : 1645982211655,
-    "duration" : 784
+    "start" : 1645982209786,
+    "stop" : 1645982210868,
+    "duration" : 1082
   },
   "status" : "passed",
   "flaky" : false,
@@ -21,9 +21,9 @@
     "steps" : [ {
       "name" : "fixture (\"rickAndMorty\")",
       "time" : {
-        "start" : 1645982210879,
-        "stop" : 1645982210879,
-        "duration" : 0
+        "start" : 1645982209801,
+        "stop" : 1645982209809,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -34,10 +34,10 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "as (\"episodios\")",
+      "name" : "as (\"personagens\")",
       "time" : {
-        "start" : 1645982210879,
-        "stop" : 1645982210879,
+        "start" : 1645982209810,
+        "stop" : 1645982209810,
         "duration" : 0
       },
       "status" : "passed",
@@ -51,9 +51,9 @@
     }, {
       "name" : "POST 200 https://rickandmortyapi.com/graphql",
       "time" : {
-        "start" : 1645982210880,
-        "stop" : 1645982211258,
-        "duration" : 378
+        "start" : 1645982209813,
+        "stop" : 1645982210545,
+        "duration" : 732
       },
       "status" : "passed",
       "steps" : [ ],
@@ -64,10 +64,10 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "assert expected **Pilot** to equal **Pilot**",
+      "name" : "assert expected **Rick Sanchez** to equal **Rick Sanchez**",
       "time" : {
-        "start" : 1645982211262,
-        "stop" : 1645982211262,
+        "start" : 1645982210551,
+        "stop" : 1645982210551,
         "duration" : 0
       },
       "status" : "passed",
@@ -75,20 +75,20 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "Pilot"
+        "value" : "Rick Sanchez"
       }, {
         "name" : "expected",
-        "value" : "Pilot"
+        "value" : "Rick Sanchez"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "assert expected **December 2, 2013** to equal **December 2, 2013**",
+      "name" : "assert expected **Human** to equal **Human**",
       "time" : {
-        "start" : 1645982211262,
-        "stop" : 1645982211262,
+        "start" : 1645982210551,
+        "stop" : 1645982210551,
         "duration" : 0
       },
       "status" : "passed",
@@ -96,10 +96,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "December 2, 2013"
+        "value" : "Human"
       }, {
         "name" : "expected",
-        "value" : "December 2, 2013"
+        "value" : "Human"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
@@ -108,8 +108,8 @@
     }, {
       "name" : "assert expected **200** to equal **200**",
       "time" : {
-        "start" : 1645982211262,
-        "stop" : 1645982211262,
+        "start" : 1645982210552,
+        "stop" : 1645982210552,
         "duration" : 0
       },
       "status" : "passed",
@@ -129,9 +129,9 @@
     }, {
       "name" : "POST 200 https://rickandmortyapi.com/graphql",
       "time" : {
-        "start" : 1645982211262,
-        "stop" : 1645982211649,
-        "duration" : 387
+        "start" : 1645982210552,
+        "stop" : 1645982210863,
+        "duration" : 311
       },
       "status" : "passed",
       "steps" : [ ],
@@ -142,10 +142,10 @@
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "assert expected **Rickmurai Jack** to equal **Rickmurai Jack**",
+      "name" : "assert expected **Arcade Alien** to equal **Arcade Alien**",
       "time" : {
-        "start" : 1645982211654,
-        "stop" : 1645982211654,
+        "start" : 1645982210866,
+        "stop" : 1645982210866,
         "duration" : 0
       },
       "status" : "passed",
@@ -153,20 +153,20 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "Rickmurai Jack"
+        "value" : "Arcade Alien"
       }, {
         "name" : "expected",
-        "value" : "Rickmurai Jack"
+        "value" : "Arcade Alien"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
-      "name" : "assert expected **September 5, 2021** to equal **September 5, 2021**",
+      "name" : "assert expected **Alien** to equal **Alien**",
       "time" : {
-        "start" : 1645982211654,
-        "stop" : 1645982211654,
+        "start" : 1645982210866,
+        "stop" : 1645982210866,
         "duration" : 0
       },
       "status" : "passed",
@@ -174,10 +174,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "actual",
-        "value" : "September 5, 2021"
+        "value" : "Alien"
       }, {
         "name" : "expected",
-        "value" : "September 5, 2021"
+        "value" : "Alien"
       } ],
       "stepsCount" : 0,
       "hasContent" : true,
@@ -186,8 +186,8 @@
     }, {
       "name" : "assert expected **200** to equal **200**",
       "time" : {
-        "start" : 1645982211654,
-        "stop" : 1645982211654,
+        "start" : 1645982210866,
+        "stop" : 1645982210866,
         "duration" : 0
       },
       "status" : "passed",
@@ -222,14 +222,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fd37415f542037bf.json",
+  "source" : "f78e11d4e12f8c95.json",
   "parameterValues" : [ ]
 }

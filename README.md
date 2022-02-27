@@ -4,7 +4,7 @@
 
 # Pré-requisitos e configurações iniciais:
 
-    - [node versão LTS](https://nodejs.org/dist/v16.14.0/node-v16.14.0-x64.msi)
+   ### NodeJS [versão LTS](https://nodejs.org/en/download/)
     
     - após instalar node, instalar yarn através do npm utilizando o comando:
         - npm install --global yarn
